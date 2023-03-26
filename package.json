@@ -1,0 +1,12 @@
+{
+  "name": "send-data-to-api-docker-action",
+  "version": "1.0.0",
+  "private": true,
+  "main": "send_data_to_api.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "axios": "^0.26.1"
+  }
+}
