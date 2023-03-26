@@ -8,7 +8,7 @@ WORKDIR /app
 COPY package*.json ./
 
 # Install dependencies
-RUN npm ci
+RUN npm install --production
 
 # Copy the send_data_to_api.js script to the working directory
 COPY send_data_to_api.js ./
