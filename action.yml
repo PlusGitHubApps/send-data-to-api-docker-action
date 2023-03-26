@@ -14,4 +14,6 @@ runs:
   using: 'docker'
   image: 'Dockerfile'
   env:
-    INPUT_API_URL: ${{ inputs.api
+    INPUT_API_URL: ${{ inputs.api-url }}
+    INPUT_API_KEY: ${{ inputs.api-key }}
+    INPUT_DATA: ${{ inputs.data }}
